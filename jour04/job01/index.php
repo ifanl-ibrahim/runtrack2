@@ -14,14 +14,14 @@ foreach ($_GET as $value) {
 
 ?>
 
-<form action="./index.php" method="GET">
+<form action="#" method="GET">
     <p>Bonjour</p>
     <input type="texte" name="user" placeholder="Nom d'utilisateur">
     <input type="texte"  name="passe" placeholder="passeword">
     <input type="submit" value="se connecter"><br><br>
-     <!-- <p>Je reconnais les conditions de l'utilisations <br><br>
+     <p>Je reconnais les conditions de l'utilisations <br><br>
         <input type="radio" name="bouton" id="oui">
         <label for="oui">Oui</label>
         <input type="radio" name="bouton" id="non">
         <label for="non">Non</label>
-</form> -->
+</form>

@@ -14,7 +14,7 @@ foreach ($_POST as $value) {
 
 ?>
 
-<form action="./index.php" method="Post">
+<form action="#" method="Post">
     <p>Bonjour</p>
     <input type="texte" name="user" placeholder="Nom d'utilisateur">
     <input type="texte"  name="passe" placeholder="passeword">

@@ -11,7 +11,7 @@
 
 ?>
 
-<form action="./index.php" method="POST">
+<form action="#" method="POST">
     <p>Bonjour</p>
     <input type="texte" name="username" placeholder="username">
     <input type="texte"  name="password" placeholder="password"><br><br>
