@@ -11,5 +11,5 @@
             echo 'Buzz'.'<br>';}
         
         else echo $chiffre.'<br>';}
-
+        
 ?>

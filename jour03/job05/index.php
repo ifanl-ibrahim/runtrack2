@@ -2,23 +2,28 @@
 
 $str = "on n'est pas le meilleur quand on le croit mais quand on le sait.";
 
-$dic = array ("voyelles"=> ['a','i','o','u','y'],
-             "consonnes"=> ['b','c','d','f','g','h','j','k','l','m','n','p','q','r','s','t','v','w','x','z']);
+$dic = [
+        "voyelles"=> ['a','e','i','o','u','y'],
+        "consonnes"=> ['b','c','d','f','g','h','j','k','l','m','n','p','q','r','s','t','v','w','x','z']
+        ];
 
 $cont1 = 0;
 $cont2 = 0;
 
-for($i= 0; isset($str[$i]); $i++); {
+for($i= 0; isset($str[$i]); $i++) {
 
-    for($y = 0 ; isset( $dic["voyelles"][$y]) ; $y++) {
+for($y = 0; isset( $dic["voyelles"][$y]); $y++) {
+    
+    if ($str[$i] == $dic["voyelles"][$y]) {
+        $cont1++;}
+}
 
-        if ($str[$i] = $dic["voyelles"][$y]) {
-            $cont1++;}}
+for($x = 0; isset($dic["consonnes"][$x]); $x++){
 
-    for($x=0; isset($dic["consonnes"][$x]); $x++) {
-        if($str[$i] = $dic["consonnes"][$x]) {
-            $cont2++;}}
+    if ($str[$i] == $dic["consonnes"][$x]) {
+        $cont2++;}
     }
+}
 ?>        
 
 <html>
