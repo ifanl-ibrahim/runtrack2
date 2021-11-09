@@ -1,12 +1,17 @@
 <?php
 
-var_dump($_GET);
+// var_dump($_GET);
 
-if ($_GET["nombre"] % 2 == 0) {
-    echo "Nombre pair";}
+foreach ($_GET as $value) {
+    if ($value != '') {
+        $i++;}
 
-else {
-    echo "Nombre impair";
+    elseif ($_GET["nombre"] % 2 == 0) {
+        echo "Nombre pair";}
+
+    else {
+        echo "Nombre impair";
+}
 }
 
 ?>

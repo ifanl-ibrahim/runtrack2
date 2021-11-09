@@ -12,17 +12,17 @@ $cont2 = 0;
 
 for($i= 0; isset($str[$i]); $i++) {
 
-for($y = 0; isset( $dic["voyelles"][$y]); $y++) {
-    
-    if ($str[$i] == $dic["voyelles"][$y]) {
-        $cont1++;}
-}
-
-for($x = 0; isset($dic["consonnes"][$x]); $x++){
-
-    if ($str[$i] == $dic["consonnes"][$x]) {
-        $cont2++;}
+    for($y = 0; isset( $dic["voyelles"][$y]); $y++) {
+        
+        if ($str[$i] == $dic["voyelles"][$y]) {
+            $cont1++;}
     }
+    
+    for($x = 0; isset($dic["consonnes"][$x]); $x++){
+    
+        if ($str[$i] == $dic["consonnes"][$x]) {
+            $cont2++;}
+        }
 }
 ?>        
 
