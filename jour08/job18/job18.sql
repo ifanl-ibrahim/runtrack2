@@ -1,0 +1,1 @@
+SELECT salles.Lounge, etage.RDC FROM salles INNER JOIN etage ALTER TABLE nom_table CHANGE salles, Biggest Room
