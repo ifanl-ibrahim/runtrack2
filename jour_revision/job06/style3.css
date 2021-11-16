@@ -1,0 +1,15 @@
+header {
+    text-align: center;
+    background-color: skyblue;}
+
+body {
+    background-image: url(./Images/IMG_20211108_124123.jpg);
+    display: flex;
+    justify-content: center;}
+
+footer {
+    background-color: skyblue;
+    align-items: center;
+    background-image: url(./Images/logoibra.png);
+    height: 32vh;
+    width: 33vh;}

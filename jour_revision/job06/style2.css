@@ -1,0 +1,15 @@
+header {
+    text-align: center;
+    background-color: black;}
+
+body {
+    background-image: url(./Images/kingdom_hearts_organization_13_wallpaper_024.jpg);
+    display: flex;
+    justify-content: center;}
+
+footer {
+    background-color: black;
+    align-items: center;
+    background-image: url(./Images/logoibra.png);
+    height: 32vh;
+    width: 33vh;}

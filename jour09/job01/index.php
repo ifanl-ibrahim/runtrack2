@@ -24,5 +24,3 @@ foreach($res as $key=>$values) {
 ?>
 
 </table>
-
-

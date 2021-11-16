@@ -1,0 +1,16 @@
+header {
+    text-align: center;
+    background-color: whitesmoke;}
+
+body {
+    background-image: url(./Images/lg.png);
+    display: flex;
+    justify-content: center;}
+    
+footer {
+    background-color: whitesmoke;
+    align-items: center;
+    background-image: url(./Images/logoibra.png);
+    height: 32vh;
+    width: 33vh;}
+
